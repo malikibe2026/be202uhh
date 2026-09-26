@@ -1,0 +1,25 @@
+{
+  "name": "banci-ekonomi-2026-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video Remotion: Prestasi Banci Ekonomi 2026 — DOSM WPKL (9:16, 1080x1920, 20s, 30fps)",
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render BanciEkonomi2026 out/banci-ekonomi-2026.mp4",
+    "still": "remotion still BanciEkonomi2026 out/thumbnail.png --frame=60",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "@remotion/transitions": "4.0.529",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
